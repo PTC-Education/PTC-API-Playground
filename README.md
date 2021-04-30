@@ -1,10 +1,13 @@
 # PTC-API-Playground
 
 Welcome to the PTC API Playground! In this repository, you will find:
+
 0. [Preface](https://github.com/PTC-Education/PTC-API-Playground#0-preface)
 1. [Getting Started Documentation](https://github.com/PTC-Education/PTC-API-Playground#1-getting-started)
 2. [Interactive Examples - Connecting to the "Master Snippets Document" for Google Colab](https://github.com/PTC-Education/PTC-API-Playground#2-interactive-examples---connecting-to-the-master-snippets-document-for-google-colab)
 3. [Using the Snippets library and beyond!](https://github.com/PTC-Education/PTC-API-Playground#3-using-the-snippets-library)
+
+---
 
 ## 0. Preface
 **WELCOME TO THE PTC PLAYGROUND!**
