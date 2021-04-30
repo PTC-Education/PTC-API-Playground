@@ -1,10 +1,10 @@
 # PTC-API-Playground
 
 Welcome to the PTC API Playground! In this repository, you will find:
-0. [Preface](link)
-1. [Getting Started Documentation](link)
-2. [Interactive Examples - Connecting to the "Master Snippets Document" for Google Colab](link)
-3. Using the Snippets library and beyond!
+0. [Preface](https://github.com/PTC-Education/PTC-API-Playground#0-preface)
+1. [Getting Started Documentation](https://github.com/PTC-Education/PTC-API-Playground#1-getting-started)
+2. [Interactive Examples - Connecting to the "Master Snippets Document" for Google Colab](https://github.com/PTC-Education/PTC-API-Playground#2-interactive-examples---connecting-to-the-master-snippets-document-for-google-colab)
+3. [Using the Snippets library and beyond!](https://github.com/PTC-Education/PTC-API-Playground#3-using-the-snippets-library)
 
 ## 0. Preface
 **WELCOME TO THE PTC PLAYGROUND!**
@@ -32,7 +32,7 @@ The first step for getting started with PTC API Playground is deciding what type
 
 Now onto getting the library of examples! You can find the mast Snippets Document directly in this repo ("PTC API Snippets.ipynb"). However this "master snippets" library is most useful integrated directly into your Google Colab Environment.
 
-[Snippets Gif](link)
+![Snippets Gif](https://github.com/PTC-Education/PTC-API-Playground/blob/main/add-snippets.gif?raw=true)
 
 1. Open a document in [Google Colab](https://colab.research.google.com/). 
 2. In the toolbar at the top (left) of your Google Colab you can go into the Tools > Settings > Sites Menu
@@ -58,6 +58,6 @@ General Tips:
 - To connect to PTCColab using Snippets 1.1 is required to import the PTCColab library
 - 1.2 is required to connect to any Onshape connection with PTCColab.
 - 1.7 is required to connect to any Thingworx connection with PTC Colab.
-- For any function in PTC Colab, there is probably an optional parameter called "verbose" which will give you more information into the black box. (Although you can see the implementation directly in the PTCColab repository.)
+- For any function in PTC Colab, there is probably an optional boolean parameter called "verbose" which will give you more information into the black box. (Although you can see the implementation directly in the PTCColab repository.)
 - Happy hacking!
 
