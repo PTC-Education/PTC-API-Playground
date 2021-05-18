@@ -21,7 +21,7 @@ The simplest way we've found for using the snippets is to add them as a custom s
 
 1. Open a document in [Google Colab](https://colab.research.google.com/). 
 2. In the toolbar at the top (left) of your Google Colab you can go into the Tools > Settings > Sites Menu
-3. Copy the Master Snippets Library URL (you can find this URL by clicking "open in colab" at the top of the [Onshape API Snippets](https://github.com/PTC-Education/PTC-API-Playground/blob/main/Onshape_API_Snippets.ipynb) or the [ThingWorx API Snippets](https://github.com/PTC-Education/PTC-API-Playground/blob/main/ThingWorx_API_Snippets.ipynb)) into the "Custom Snippet notebook URL box".
+3. Copy the Master Snippets Library URL (click [here for the Onshape API Snippets URL](https://colab.research.google.com/github/PTC-Education/PTC-API-Playground/blob/main/Onshape_API_Snippets.ipynb) or [here for the ThingWorx API Snippets URL](https://colab.research.google.com/github/PTC-Education/PTC-API-Playground/blob/main/ThingWorx_API_Snippets.ipynb)) into the "Custom Snippet notebook URL box".
 4. Hit save!
 5. You can now open the snippets library in the menu on the left with the angled brackets: "<>". This is where all of the default snippets and the snippets from the "master snippets library" are.
 6. Add them to your document!
