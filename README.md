@@ -1,61 +1,58 @@
-# PTC-API-Playground
+## PTC-API-Playground
 
 Welcome to the PTC API Playground! In this repository, you will find:
 
-0. [Preface](https://github.com/PTC-Education/PTC-API-Playground#0-preface)
-1. [Getting Started Documentation](https://github.com/PTC-Education/PTC-API-Playground#1-getting-started)
-2. [Interactive Examples - Connecting to the "Master Snippets Document" for Google Colab](https://github.com/PTC-Education/PTC-API-Playground#2-interactive-examples---connecting-to-the-master-snippets-document-for-google-colab)
-3. [Using the Snippets library and beyond!](https://github.com/PTC-Education/PTC-API-Playground#3-using-the-snippets-library)
+0. [Overview](https://github.com/PTC-Education/PTC-API-Playground#0-overview)
+1. [Onshape API Snippets](https://github.com/PTC-Education/PTC-API-Playground#1-onshape-api-snippets)
+2. [ThingWorx API Snippets](https://github.com/PTC-Education/PTC-API-Playground#2-onshape-api-snippets)
+3. [PTC Colab Library](https://github.com/PTC-Education/PTC-API-Playground#3-PTCColab-library)
+4. [Example Notebooks](https://github.com/PTC-Education/PTC-API-Playground#4-example-notebooks)
 
 ---
 
-## 0. Preface
+## 0. Overview
 **WELCOME TO THE PTC PLAYGROUND!**
 
-This is meant to be the landing page for connecting to the [PTCColab](https://github.com/PTC-Education/PTCColab) Library/Python Package. The PTC-API-Playground is a library of examples that use PTCColab.
+The goal of this project is to enable anyone to get started with creating simple Python apps that connect to Onshape and ThingWorx REST API's. We've created a number of "snippet libraries" that show you how to use API keys to get and set information with Python notebooks. These libraries and example python notebooks are hosted in Google Colab, a web hosted version of Jupyter Notebooks.
 
-PTCColab was built with the intention of being a springboard for app development that use the Onshape API with basic connections to the Thingworx API. PTCColab can be used in any Python3 REPL however, PTC-API-Playground has been designed to work seemlessly with Google Colab, the Google Hosted Jupyter Notebook environment. The examples/"master snippet library" can be referenced for any Python Notebook or script. Specific documentation for PTCColab can be found [here](https://github.com/PTC-Education/PTCColab#table-of-contents), however it's recommended to follow the getting started guide below! Happy Hacking.
+The simplest way we've found for using the snippets is to add them as a custom snippet library in Google Colab as shown below. Then you can click on the arrows to insert them into your new Pyton notebook.
 
-
---- 
-
-## 1. Getting Started
-The first step for getting started with PTC API Playground is deciding what type of connections you want to make! Depending on what you want to connect to, different types of information (usually API keys) are needed. This step can be done after looking through examples of connections and various usages of PTCColab, although it's definitely easier to get started if you have all of the external set-up parts ready before hand diving in.
-
-- Do you want to connect to Onshape?
-  - ==> Get Onshape API Keys [here](https://dev-portal.onshape.com/) and instructions [here](https://github.com/PTC-Education/PTCColab#onshape-api-keys)
-  - ==> You might also want to create an Onshape document/model in the workspace your API keys are for and have the URL handy.  
-- Do you want to connect to Thingworx?
-  - ==> Get Thingworx API Keys [instructions here](https://support.ptc.com/help/thingworx_hc/thingworx_8_hc/en/index.html#page/ThingWorx/Help/Composer/Security/ApplicationKeys/ApplicationKeys.html)
-  - When connecting to Thingworx, you will also want a Thing Instance that's within the same Project as your API keys. To connect to Thingworx through PTCColab/PTC-API-Playground the Thing Instance URL must be in this format: `https://<Thingworx-Workspace-Base-URL>.portal.ptc.io/Thingworx/Things/<Thing-Name>/Properties/`
-
---- 
-
-## 2. Interactive Examples - Connecting to the "Master Snippets Document" (For Google Colab)
-
-Now onto getting the library of examples! You can find the mast Snippets Document directly in this repo ("PTC API Snippets.ipynb"). However this "master snippets" library is most useful integrated directly into your Google Colab Environment.
-
-![Snippets Gif](https://github.com/PTC-Education/PTC-API-Playground/blob/main/add-snippets.gif?raw=true)
+![Snippets Gif](./assets/add-snippets.gif)
 
 1. Open a document in [Google Colab](https://colab.research.google.com/). 
 2. In the toolbar at the top (left) of your Google Colab you can go into the Tools > Settings > Sites Menu
-3. Copy the Master Snippets Library URL: `https://colab.research.google.com/drive/1JmLNhqhKkH44XGOhvhFgVxpsxOAfD8on?usp=sharing` into the "Custom Snippet notebook URL box".
+3. Copy the Master Snippets Library URL (you can find this URL by clicking "open in colab" at the top of the [Onshape API Snippets](https://github.com/PTC-Education/PTC-API-Playground/blob/main/Onshape_API_Snippets.ipynb) or the [ThingWorx API Snippets](https://github.com/PTC-Education/PTC-API-Playground/blob/main/ThingWorx_API_Snippets.ipynb)) into the "Custom Snippet notebook URL box".
 4. Hit save!
 5. You can now open the snippets library in the menu on the left with the angled brackets: "<>". This is where all of the default snippets and the snippets from the "master snippets library" are.
 6. Add them to your document!
 
+--- 
+
+## 1. Onshape API Snippets
+[Click here](https://github.com/PTC-Education/PTC-API-Playground/blob/main/Onshape_API_Snippets.ipynb) to see the latest version of the Onshape API Snippets library. The first step is to use snippet 0.1 to import the Onshape Client.
+
+Then you will need to create API Keys from [Onshape's Developer Portal.](https://dev-portal.onshape.com/) These keys can either be put directly in snippet 0.2 of the library, or saved in a file called "colabkeys.py" with the following format and used with snippet 0.3 (all api keys below are "dummies" or have been deleted - replace with your own).
+
+    access = 'Z97asb1257FkEwzp3EmCpa'
+    secret = 'nHwN3q7asdvg4aryFC9rxYyo9U4o415WokYa8VOQ9YfUh4Zx'
+
+![Add Keys File](./assets/Onshape_API_Snippets_Connect.gif)
+
+--- 
+
+## 2. ThingWorx API Snippets
+
+[Click here](https://github.com/PTC-Education/PTC-API-Playground/blob/main/ThingWorx_API_Snippets.ipynb) to see the latest version of the ThingWorx API Snippets library. [Click here](http://support.ptc.com/help/thingworx_hc/thingworx_8_hc/en/index.html#page/ThingWorx/Help/REST_API/ThingWorxRESTAPI.html) to learn more about the ThingWorx REST API.
+
+To get started with ThingWorx REST API, you will need an API key and make sure that it has the propper permissions for the entities you want to access. [There are instructions here](https://support.ptc.com/help/thingworx_hc/thingworx_8_hc/en/index.html#page/ThingWorx/Help/Composer/Security/ApplicationKeys/ApplicationKeys.html) for learning how to generate an appkey and give it proper permissions.
+
 ---
 
-## 3. Using the Snippets Library
-I accidentally explained how to use snippets in the section above.
+## 3. PTC Colab Library
 
-Below are some tips when connecting to PTCColab using Snippets
-Outline of Snippets:
-- 0.0 is a README Type
-- 1.X is all of the snippets that involve PTCColab (which include connections to Onshape (1.2-1.6) and a basic connection to Thingworx(1.7-1.9))
-- 2.X is a direct connection to Onshape's [official Python Client](https://github.com/onshape-public/onshape-clients)
-- 3.X are traditional API calls to the Thingworx API using Python's request library.
+We have created a custom Python Library/Package called [PTCColab](https://github.com/PTC-Education/PTCColab) to simplify some of the complexities involved with using the Onshape and ThingWorx REST API's. [Click here](https://github.com/PTC-Education/PTC-API-Playground/blob/main/PTCColab_API_Snippets.ipynb) to see the latest version of the snippets library that uses the PTCColab library.
 
+PTCColab was built with the intention of being a springboard for app development that use the Onshape API with basic connections to the Thingworx API. PTCColab can be used in any Python3 REPL however, PTC-API-Playground has been designed to work seemlessly with Google Colab, the Google Hosted Jupyter Notebook environment. The examples/"master snippet library" can be referenced for any Python Notebook or script. Specific documentation for PTCColab can be found [here](https://github.com/PTC-Education/PTCColab#table-of-contents). Happy Hacking!
 
 General Tips:
 - To connect to PTCColab using Snippets 1.1 is required to import the PTCColab library
@@ -64,3 +61,8 @@ General Tips:
 - For any function in PTC Colab, there is probably an optional boolean parameter called "verbose" which will give you more information into the black box. (Although you can see the implementation directly in the PTCColab repository.)
 - Happy hacking!
 
+---
+
+## 4. Example Notebooks
+
+- [Click here](https://github.com/PTC-Education/PTC-API-Playground/blob/main/Transformation_Matrices_Lesson.ipynb) to see a notebook designed to teach the basics of the math behind transformation matrices with Onshape
