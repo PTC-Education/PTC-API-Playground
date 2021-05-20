@@ -29,7 +29,7 @@ The simplest way we've found for using the snippets is to add them as a custom s
 --- 
 
 ## 1. Onshape API Snippets
-[Click here](https://github.com/PTC-Education/PTC-API-Playground/blob/main/Onshape_API_Snippets.ipynb) to see the latest version of the Onshape API Snippets library. The first step is to use snippet 0.1 to import the Onshape Client.
+[Click here](https://colab.research.google.com/github/PTC-Education/PTC-API-Playground/blob/main/Onshape_API_Snippets.ipynb) to see the latest version of the Onshape API Snippets library. The first step is to use snippet 0.1 to import the Onshape Client.
 
 Then you will need to create API Keys from [Onshape's Developer Portal.](https://dev-portal.onshape.com/) These keys can either be put directly in snippet 0.2 of the library, or saved in a file called "colabkeys.py" with the following format and used with snippet 0.3 (all api keys below are fake or have been deleted - replace with your own).
 
@@ -42,7 +42,7 @@ Then you will need to create API Keys from [Onshape's Developer Portal.](https:/
 
 ## 2. ThingWorx API Snippets
 
-[Click here](https://github.com/PTC-Education/PTC-API-Playground/blob/main/ThingWorx_API_Snippets.ipynb) to see the latest version of the ThingWorx API Snippets library. [Click here](http://support.ptc.com/help/thingworx_hc/thingworx_8_hc/en/index.html#page/ThingWorx/Help/REST_API/ThingWorxRESTAPI.html) to learn more about the ThingWorx REST API.
+[Click here](https://colab.research.google.com/github/PTC-Education/PTC-API-Playground/blob/main/ThingWorx_API_Snippets.ipynb) to see the latest version of the ThingWorx API Snippets library. [Click here](http://support.ptc.com/help/thingworx_hc/thingworx_8_hc/en/index.html#page/ThingWorx/Help/REST_API/ThingWorxRESTAPI.html) to learn more about the ThingWorx REST API.
 
 To get started with ThingWorx REST API, you will need an API key and make sure that it has the propper permissions for the entities you want to access. [There are instructions here](https://support.ptc.com/help/thingworx_hc/thingworx_8_hc/en/index.html#page/ThingWorx/Help/Composer/Security/ApplicationKeys/ApplicationKeys.html) for learning how to generate an appkey and give it proper permissions.
 
@@ -67,6 +67,6 @@ General Tips:
 
 Below are some examples of how the snippets libraries have been used to create simple services or applications with Onshape and ThingWorx. NOTE: You will need to upload your own app keys and document parameters to run the example notebooks.
 
-- [Click here](https://github.com/PTC-Education/PTC-API-Playground/blob/main/Transformation_Matrices_Lesson.ipynb) to see a notebook designed to teach the basics of the math behind transformation matrices with Onshape
-- [Click here](https://github.com/PTC-Education/PTC-API-Playground/blob/main/Onshape_Countdown_DX_in_Education_Summit.ipynb) to see a notebook that updates a counter text in Onshape
-- [Click here](https://github.com/PTC-Education/PTC-API-Playground/blob/main/Octoprint_ThingWorx.ipynb) to see a notebook that sends information between an Octoprint server running on your local network and ThingWorx.
+- [Click here](https://colab.research.google.com/github/PTC-Education/PTC-API-Playground/blob/main/Transformation_Matrices_Lesson.ipynb) to see a notebook designed to teach the basics of the math behind transformation matrices with Onshape
+- [Click here](https://colab.research.google.com/github/PTC-Education/PTC-API-Playground/blob/main/Onshape_Countdown_DX_in_Education_Summit.ipynb) to see a notebook that updates a counter text in Onshape
+- [Click here](https://colab.research.google.com/github/PTC-Education/PTC-API-Playground/blob/main/Octoprint_ThingWorx.ipynb) to see a notebook that sends information between an Octoprint server running on your local network and ThingWorx.
