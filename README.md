@@ -67,6 +67,6 @@ General Tips:
 
 Below are some examples of how the snippets libraries have been used to create simple services or applications with Onshape and ThingWorx. NOTE: You will need to upload your own app keys and document parameters to run the example notebooks.
 
-- [Click here](https://colab.research.google.com/github/PTC-Education/PTC-API-Playground/blob/main/Transformation_Matrices_Lesson.ipynb) to see a notebook designed to teach the basics of the math behind transformation matrices with Onshape
+- [Click here](https://colab.research.google.com/github/PTC-Education/PTC-API-Playground/blob/main/Transformation_Matrices_Lesson_Plan.ipynb) to see a notebook designed to teach the basics of the math behind transformation matrices with Onshape
 - [Click here](https://colab.research.google.com/github/PTC-Education/PTC-API-Playground/blob/main/Onshape_Countdown_DX_in_Education_Summit.ipynb) to see a notebook that updates a counter text in Onshape
 - [Click here](https://colab.research.google.com/github/PTC-Education/PTC-API-Playground/blob/main/Octoprint_ThingWorx.ipynb) to see a notebook that sends information between an Octoprint server running on your local network and ThingWorx.
