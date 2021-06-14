@@ -4,7 +4,7 @@ Welcome to the PTC API Playground! In this repository, you will find:
 
 0. [Overview](https://github.com/PTC-Education/PTC-API-Playground#0-overview)
 1. [Onshape API Snippets](https://github.com/PTC-Education/PTC-API-Playground#1-onshape-api-snippets)
-2. [ThingWorx API Snippets](https://github.com/PTC-Education/PTC-API-Playground#2-onshape-api-snippets)
+2. [ThingWorx API Snippets](https://github.com/PTC-Education/PTC-API-Playground#2-thingworx-api-snippets)
 3. [PTC Colab Library](https://github.com/PTC-Education/PTC-API-Playground#3-PTCColab-library)
 4. [Example Notebooks](https://github.com/PTC-Education/PTC-API-Playground#4-example-notebooks)
 
